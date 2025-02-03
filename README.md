@@ -1,2 +1,1 @@
-# SnowWhite
-For_SnowWhite_Dental_Clinic
+# Registration_System
