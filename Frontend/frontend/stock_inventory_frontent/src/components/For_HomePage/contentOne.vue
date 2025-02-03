@@ -1,21 +1,25 @@
 <template>
     <div class="content_one_container">
-        <swiper :spaceBetween="30" :centeredSlides="true" :autoplay="{
-            delay: 2500,
-            disableOnInteraction: false,
-        }" :pagination="{
-        clickable: true,
-    }" :navigation="true" :loop="true" :modules="modules" class="mySwiper">
-            <swiper-slide>
-                <div class="b_box"></div>
-            </swiper-slide>
-            <swiper-slide>
-                <div class="b_box"></div>
-            </swiper-slide>
-            <swiper-slide>
-                <v-img :src="show_img" cover></v-img>
-            </swiper-slide>
-        </swiper>
+        <div class="custom_container">
+
+            <swiper :spaceBetween="30" :centeredSlides="true" :autoplay="{
+                delay: 2500,
+                disableOnInteraction: false,
+            }" :pagination="{
+            clickable: true,
+        }" :navigation="true" :loop="true" :modules="modules" class="mySwiper">
+                <swiper-slide>
+                    <div class="b_box"></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="b_box"></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <!-- <v-img :src="show_img" cover></v-img> -->
+                     <div class="b_box"></div>
+                </swiper-slide>
+            </swiper>
+        </div>
     </div>
 </template>
 

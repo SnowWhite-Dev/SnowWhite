@@ -88,14 +88,23 @@ h5 {
 
 /* Homepage Content One Start */
 .content_one_container {
-  .mySwiper {
+  .custom_container {
+    .mySwiper {
     swiper-slide {
+      .b_box {
+        width: 100%;
+        height: 200px;
+        border:2px solid red;
+        border-radius: 2px;
+      }
       .v-img {
         width: 100%;
         height: 200px;
       }
     }
   }
+  }
+  
 }
 /* Homepage Content One End */
 
